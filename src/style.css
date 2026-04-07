@@ -1,0 +1,70 @@
+/* @import './assets/variables.css'; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Apply custom colors to root elements */
+
+:root {
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #DFD0B8;
+  background-color: #FFFFFF;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Primary Brand Colors */
+  /* --color-primary: #3f8363; */
+  --color-primary: #B5828C;
+  /* --color-primary: #987D9A; */
+
+
+  --color-sidebar: #f9fafb;
+  --color-primary-hover: #9A6F77;
+  --color-primary-active: #916870;
+  --color-chat-secondary: #f3f4f6;
+  
+  /* Secondary Colors */
+  --color-secondary: #ffffff;
+  --color-text-primary: #DFD0B8;
+  --color-text-secondary: #222831;
+  --color-primary-background-light: #F5E8EB;
+  
+  /* Typography - Font Sizes */
+  --text-header: 20px;
+  --text-content: 14px;
+  --text-description: 12px;
+
+  --text-primary: #B5828C;
+  --text-secondary: #374151;
+  --text-tertiary: #6B7280;
+
+  /* Element Plus Component Variables */
+  --el-switch-on-color: var(--color-primary);
+
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #FFFFFF;
+  color: #DFD0B8 !important;
+}
+
+
+
+
+#app {
+  /* max-width: 1280px; */
+  width: 100%;
+  text-align: center;
+}
